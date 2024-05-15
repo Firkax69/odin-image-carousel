@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image carousel</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <section aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658</button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img
+              src="https://images.unsplash.com/photo-1715590876582-18e4844864a6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Squirrel"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://images.unsplash.com/photo-1715412406818-48241c841c9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Deers"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://images.unsplash.com/photo-1715206469708-e3fcde32dee4?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Colibri"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
